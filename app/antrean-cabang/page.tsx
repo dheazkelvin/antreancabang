@@ -43,7 +43,7 @@ export default function AntreanCabang() {
   const [step, setStep] = React.useState<1 | 2 | 3>(1);
   const [selectedBranch, setSelectedBranch] = React.useState<string>("");
   const [selectedService, setSelectedService] = React.useState<string>("");
-  const [tickets, setTickets] = React.useState<Ticket[]>([]);
+  const [serverTickets, setServerTickets] = React.useState<Ticket[]>([]);
   const [currentTicket, setCurrentTicket] = React.useState<Ticket | null>(null);
 
   const branches = ["BNI Harmoni", "BNI Daan Mogot", "BNI Menteng", "BNI Jakarta Kota"];
@@ -56,21 +56,85 @@ export default function AntreanCabang() {
     { name: "Layanan ATM / Kartu", Icon: WalletCards },
   ];
 
-  function onGenerateTicket() {
-    const prefix = getPrefixByService(selectedService);
-    const number = generateNextNumber(prefix, tickets);
-    const newTicket: Ticket = {
-      number,
-      prefix,
-      service: selectedService,
-      branch: selectedBranch,
-      status: "waiting",
-      createdAt: new Date().toISOString(),
+  React.useEffect(() => {
+    let ws: WebSocket | null = null;
+
+    async function fetchQueue() {
+      try {
+        const res = await fetch("/api/queue", { cache: "no-store" });
+        const json = await res.json();
+        setServerTickets(Array.isArray(json.tickets) ? json.tickets : []);
+      } catch {}
+    }
+
+    fetchQueue();
+
+    try {
+      ws = new WebSocket("ws://localhost:8080");
+      ws.addEventListener("message", (ev) => {
+        if (typeof ev.data === "string" && ev.data.includes("UPDATED")) {
+          fetchQueue();
+        }
+      });
+    } catch {}
+
+    return () => {
+      if (ws && ws.readyState === WebSocket.OPEN) ws.close();
     };
-    setTickets((prev) => [...prev, newTicket]);
-    setCurrentTicket(newTicket);
-    setStep(3);
+  }, []);
+
+  const latestByService: Record<string, string> = React.useMemo(() => {
+    const m: Record<string, string> = {};
+    for (const t of serverTickets) m[t.service] = t.number;
+    return m;
+  }, [serverTickets]);
+
+  function normalizeLatest(service: string): string {
+    const latest = latestByService[service];
+    const prefix = getPrefixByService(service);
+    if (!latest) return `${prefix}001`;
+    if (/^[A-Za-z]\d+$/.test(latest)) {
+      const d = latest.slice(1);
+      return `${latest[0]}${d.padStart(3, "0")}`;
+    }
+    if (/^\d+$/.test(latest)) return `${prefix}${latest.padStart(3, "0")}`;
+    return latest;
   }
+
+  function estimateNext(service: string): string {
+    const prefix = getPrefixByService(service);
+    const latest = latestByService[service];
+    if (!latest) return `${prefix}002`;
+    const n = parseInt(latest.slice(1), 10);
+    const next = isNaN(n) ? 2 : n + 1;
+    return `${prefix}${next.toString().padStart(3, "0")}`;
+  }
+
+  async function onGenerateTicket() {
+      const prefix = getPrefixByService(selectedService);
+      const number = generateNextNumber(prefix, serverTickets as Ticket[]);
+
+      const newTicket: Ticket = {
+        number,
+        prefix,
+        service: selectedService,
+        branch: selectedBranch,
+        status: "waiting",
+        createdAt: new Date().toISOString(),
+      };
+
+      // simpan ke JSON via API
+      await fetch("/api/queue", {
+        method: "POST",
+        body: JSON.stringify(newTicket),
+      });
+
+      // update state internal (hp biar bisa lihat tiketnya)
+      setServerTickets((prev) => [...prev, newTicket]);
+      setCurrentTicket(newTicket);
+      setStep(3);
+  }
+
 
   return (
     <div className="min-h-screen w-full bg-white text-black">
@@ -125,6 +189,10 @@ export default function AntreanCabang() {
                     <Icon size={28} className="text-black" />
                   </div>
                   <div className="text-center text-sm font-semibold">{name}</div>
+                  <div className="mt-1 w-full text-xs text-zinc-600">
+                    <div className="flex justify-between"><span>Antrian Aktif</span><span className="font-semibold">{normalizeLatest(name)}</span></div>
+                    <div className="flex justify-between"><span>Nomor Estimasi Anda</span><span className="font-semibold">{estimateNext(name)}</span></div>
+                  </div>
                 </button>
               ))}
             </div>

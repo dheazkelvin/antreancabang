@@ -1,0 +1,36 @@
+{
+  "tickets": [
+    {
+      "number": "A001",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-01T16:07:11.643Z"
+    },
+    {
+      "number": "B001",
+      "prefix": "B",
+      "service": "Customer Service",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T01:28:41.648Z"
+    },
+    {
+      "number": "A001",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T01:28:58.712Z"
+    },
+    {
+      "number": "A002",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T01:42:45.912Z"
+    }
+  ]
+}

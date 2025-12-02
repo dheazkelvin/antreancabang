@@ -34,7 +34,7 @@ function generateNextNumber(prefix: string, tickets: Ticket[]): string {
   const filtered = tickets.filter((t) => t.prefix === prefix);
   if (filtered.length === 0) return `${prefix}025`;
   const last = filtered[filtered.length - 1].number;
-  const num = parseInt(last.slice(1)) + 1;
+  const num = parseInt(last.slice(1), 10) + 5;
   return prefix + num.toString().padStart(3, "0");
 }
 
@@ -58,6 +58,7 @@ export default function AntreanCabang() {
 
   React.useEffect(() => {
     let ws: WebSocket | null = null;
+    let bc: BroadcastChannel | null = null;
 
     async function fetchQueue() {
       try {
@@ -78,8 +79,18 @@ export default function AntreanCabang() {
       });
     } catch {}
 
+    try {
+      bc = new BroadcastChannel("queue");
+      bc.onmessage = (ev) => {
+        if (typeof ev.data === "string" && ev.data.includes("UPDATED")) {
+          fetchQueue();
+        }
+      };
+    } catch {}
+
     return () => {
       if (ws && ws.readyState === WebSocket.OPEN) ws.close();
+      try { bc?.close(); } catch {}
     };
   }, []);
 
@@ -104,9 +115,9 @@ export default function AntreanCabang() {
   function estimateNext(service: string): string {
     const prefix = getPrefixByService(service);
     const latest = latestByService[service];
-    if (!latest) return `${prefix}028`;
+    if (!latest) return `${prefix}030`;
     const n = parseInt(latest.slice(1), 10);
-    const next = isNaN(n) ? 28 : n + 3;
+    const next = isNaN(n) ? 30 : n + 5;
     return `${prefix}${next.toString().padStart(3, "0")}`;
   }
 
@@ -133,11 +144,19 @@ export default function AntreanCabang() {
       setServerTickets((prev) => [...prev, newTicket]);
       setCurrentTicket(newTicket);
       setStep(3);
+      try {
+        localStorage.setItem("myQueueTicket", JSON.stringify(newTicket));
+      } catch {}
+      try {
+        const ch = new BroadcastChannel("queue");
+        ch.postMessage("UPDATED");
+        ch.close();
+      } catch {}
   }
 
 
   return (
-    <div className="min-h-screen w-full bg-white text-black">
+    <div className="min-h-screen w-full bg-black text-black">
       <main className="mx-auto flex min-h-screen w-full max-w-[430px] flex-col bg-white">
         <header className="flex items-center gap-3 px-6 pt-6">
           <button

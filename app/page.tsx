@@ -1,3 +1,6 @@
+"use client";
+import * as React from "react";
+import { toast } from "sonner";
 import {
   Battery,
   Wifi,
@@ -17,10 +20,149 @@ import {
   User,
 } from "lucide-react";
 import Link from "next/link";
+import { Toaster } from "../components/ui/sonner";
+
+type Ticket = {
+  number: string;
+  prefix: string;
+  service: string;
+  branch: string;
+  status: "waiting" | "called";
+  createdAt: string;
+};
+
+const SERVICE_PREFIX: Record<string, string> = {
+  "Teller": "A",
+  "Customer Service": "B",
+  "Layanan Kredit / KPR": "C",
+  "Pembukaan Rekening": "D",
+  "Layanan ATM / Kartu": "E",
+};
 
 export default function Home() {
+  const [myTicket, setMyTicket] = React.useState<Ticket | null>(null);
+  const [currentCalled, setCurrentCalled] = React.useState<string | null>(null);
+  const [estimateMinutes, setEstimateMinutes] = React.useState<number | null>(null);
+  const lastDiffRef = React.useRef<number | null>(null);
+  
+
+  React.useEffect(() => {
+    try {
+      const raw = localStorage.getItem("myQueueTicket");
+      if (raw) setMyTicket(JSON.parse(raw));
+    } catch {}
+  }, []);
+
+  React.useEffect(() => {
+    try {
+      const key = "toastDebugShown";
+      const shown = localStorage.getItem(key) === "1";
+      if (!shown) {
+        toast("Notifikasi aktif");
+        localStorage.setItem(key, "1");
+      }
+    } catch {}
+  }, []);
+
+  React.useEffect(() => {
+    let ws: WebSocket | null = null;
+    let bc: BroadcastChannel | null = null;
+    let poll: number | null = null;
+
+    async function fetchQueue() {
+      if (!myTicket) return;
+      try {
+        const res = await fetch("/api/queue", { cache: "no-store" });
+        const json = await res.json();
+        const tickets: Array<Ticket> = json.tickets ?? [];
+        const latestByService: Record<string, string> = {};
+        for (const t of tickets) {
+          if (t.status === "called") latestByService[t.service] = t.number;
+        }
+        const latest = latestByService[myTicket.service];
+        const prefix = SERVICE_PREFIX[myTicket.service] ?? myTicket.number[0];
+        let normalized: string | null = null;
+        if (!latest) normalized = `${prefix}025`;
+        else if (/^[A-Za-z]\d+$/.test(latest)) {
+          const d = latest.slice(1);
+          normalized = `${latest[0]}${d.padStart(3, "0")}`;
+        } else if (/^\d+$/.test(latest)) {
+          normalized = `${prefix}${latest.padStart(3, "0")}`;
+        } else normalized = latest;
+
+        const myN = parseInt(myTicket.number.slice(1), 10);
+        const curN = normalized ? parseInt(normalized.slice(1), 10) : 25;
+        const samePrefix = (normalized?.[0] ?? prefix) === myTicket.number[0];
+        if (samePrefix && !isNaN(myN) && !isNaN(curN) && curN >= myN) {
+          try { localStorage.removeItem("myQueueTicket"); } catch {}
+          setMyTicket(null);
+          setCurrentCalled(null);
+          setEstimateMinutes(null);
+          return;
+        }
+
+        setCurrentCalled(normalized);
+        const diff = isNaN(myN) || isNaN(curN) ? 0 : Math.max(myN - curN, 0);
+        setEstimateMinutes(diff * 2);
+
+        try {
+          const prev = lastDiffRef.current;
+          if (prev !== 3 && diff === 3) {
+            toast.custom((t) => (
+              <div className="flex items-center gap-3 rounded-xl bg-gradient-to-r from-[#ff8a00] to-[#00c2a8] p-3 text-white shadow-lg">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white/20">
+                  <Bell size={20} className="text-white" />
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-bold">Sisa antrean aktif 3</div>
+                  <div className="text-xs opacity-90">Silahkan datang ke {myTicket.branch}</div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Link href="/displayqueue" className="rounded-full bg-white/20 px-3 py-1 text-xs font-semibold hover:bg-white/30">Lihat Layar</Link>
+                  <button onClick={() => toast.dismiss(t)} className="rounded-full bg-white/20 px-3 py-1 text-xs font-semibold hover:bg-white/30">Oke</button>
+                </div>
+              </div>
+            ), { duration: 6000, position: "top-center" });
+          }
+          lastDiffRef.current = diff;
+        } catch {}
+      } catch {}
+    }
+
+    fetchQueue();
+
+    poll = window.setInterval(() => {
+      fetchQueue();
+    }, 5000);
+
+    try {
+      ws = new WebSocket("ws://localhost:8080");
+      ws.addEventListener("message", (ev) => {
+        if (typeof ev.data === "string" && ev.data.includes("UPDATED")) {
+          fetchQueue();
+        }
+      });
+    } catch {}
+
+    try {
+      bc = new BroadcastChannel("queue");
+      bc.onmessage = (ev) => {
+        if (typeof ev.data === "string" && ev.data.includes("UPDATED")) {
+          fetchQueue();
+        }
+      };
+    } catch {}
+
+    return () => {
+      if (ws && ws.readyState === WebSocket.OPEN) ws.close();
+      try { bc?.close(); } catch {}
+      if (poll != null) clearInterval(poll);
+    };
+  }, [myTicket]);
+  
   return (
-    <div className="min-h-screen w-full bg-white text-black">
+    <div className="min-h-screen w-full bg-black text-black">
+      <Toaster position="top-center" richColors />
       <main className="mx-auto flex min-h-screen w-full max-w-[430px] flex-col bg-white">
         <div className="relative w-full">
           <div className="flex items-center justify-between px-6 pt-6">
@@ -101,6 +243,7 @@ export default function Home() {
               <div className="mt-5 text-sm text-black/70">Saldo efektif</div>
               <div className="mt-1 flex items-center gap-2 text-xl font-bold">Rp********** <Eye size={18} className="text-black/70" /></div>
             </div>
+            
           </div>
           <div className="flex items-center justify-center gap-2">
             <div className="h-2 w-2 rounded-full bg-black" />
@@ -110,6 +253,29 @@ export default function Home() {
             <div className="h-2 w-2 rounded-full bg-zinc-300" />
           </div>
         </section>
+        {myTicket && (
+          <section className="mt-6 w-full px-6">
+            <div className="flex items-center justify-between">
+              <h2 className="text-lg font-bold">Antrean cabang</h2>
+            </div>
+            <div className="mt-4">
+              <div className="rounded-2xl bg-gradient-to-br from-[#e7f486] to-[#c8ece9] p-4 text-black shadow-md w-full">
+                <div className="flex items-center justify-between">
+                  <div className="text-xs">ANTREAN CABANG</div>
+                  <div className="rounded-full bg-black/10 px-2 py-1 text-xs font-semibold">{myTicket.service}</div>
+                </div>
+                <div className="mt-2 text-2xl font-extrabold tracking-wider">Nomor Anda: {myTicket.number}</div>
+                <div className="mt-4 text-sm text-black/70">Antrian aktif</div>
+                <div className="mt-1 text-xl font-bold">{currentCalled ?? `${SERVICE_PREFIX[myTicket.service]}025`}</div>
+                <div className="mt-4 text-sm text-black/70">Estimasi dipanggil</div>
+                <div className="mt-1 text-xl font-bold">{estimateMinutes != null ? `~${estimateMinutes} menit` : "-"}</div>
+                <div className="mt-4">
+                  <Link href="/displayqueue" className="inline-flex items-center justify-center rounded-full bg-[#ff8a00] px-4 py-2 text-sm font-semibold text-white">Lihat Layar Antrean</Link>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
         <section className="mt-6 w-full px-6">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold">Fitur pilihan kamu</h2>

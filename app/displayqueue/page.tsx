@@ -35,6 +35,9 @@ export default function DisplayQueue() {
   const [numbers, setNumbers] = React.useState<string[]>(
     loketServices.map(({ name }) => `${SERVICE_PREFIX[name]}025`)
   );
+  const numbersRef = React.useRef<string[]>(numbers);
+  const intervalsRef = React.useRef<(number | null)[]>(Array(loketServices.length).fill(null));
+  const [running, setRunning] = React.useState<boolean[]>(loketServices.map(() => false));
 
   React.useEffect(() => {
     const iv = setInterval(() => {
@@ -46,17 +49,21 @@ export default function DisplayQueue() {
   }, []);
 
   React.useEffect(() => {
+    numbersRef.current = numbers;
+  }, [numbers]);
+
+  React.useEffect(() => {
     let ws: WebSocket | null = null;
 
     async function fetchQueue() {
       try {
         const res = await fetch("/api/queue", { cache: "no-store" });
         const json = await res.json();
-        const tickets: Array<{ number: string; prefix: string; service: string; createdAt?: string }> = json.tickets ?? [];
+        const tickets: Array<{ number: string; prefix: string; service: string; status?: string; createdAt?: string }> = json.tickets ?? [];
 
         const latestByService: Record<string, string> = {};
         for (const t of tickets) {
-          latestByService[t.service] = t.number;
+          if (t.status === "called") latestByService[t.service] = t.number;
         }
 
         const mapped = loketServices.map(({ name }) => {
@@ -92,9 +99,91 @@ export default function DisplayQueue() {
     };
   }, []);
 
+  function startInterval(index: number) {
+    if (running[index]) return;
+    const id = window.setInterval(() => {
+      incrementAndPost(index);
+    }, 5000);
+    intervalsRef.current[index] = id;
+    setRunning((prev) => prev.map((v, i) => (i === index ? true : v)));
+  }
+
+  function stopInterval(index: number) {
+    const id = intervalsRef.current[index];
+    if (id != null) {
+      clearInterval(id);
+      intervalsRef.current[index] = null;
+    }
+    setRunning((prev) => prev.map((v, i) => (i === index ? false : v)));
+  }
+
+  React.useEffect(() => {
+    return () => {
+      const ids = [...intervalsRef.current];
+      for (const id of ids) {
+        if (id != null) clearInterval(id);
+      }
+    };
+  }, []);
+
+  async function postTicket(serviceName: string, number: string) {
+    try {
+      const prefix = number[0];
+      const body = {
+        number,
+        prefix,
+        service: serviceName,
+        branch: "BNI Harmoni",
+        status: "called",
+        createdAt: new Date().toISOString(),
+      };
+      await fetch("/api/queue", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      try {
+        const ch = new BroadcastChannel("queue");
+        ch.postMessage("UPDATED");
+        ch.close();
+      } catch {}
+    } catch {}
+  }
+
+  function computeNextNumber(index: number) {
+    const current = numbersRef.current[index];
+    const m = current.match(/^([A-Za-z])(\d+)$/);
+    if (m) {
+      const prefix = m[1];
+      const n = String(Number(m[2]) + 1).padStart(3, "0");
+      return `${prefix}${n}`;
+    }
+    const prefix = current[0] ?? SERVICE_PREFIX[loketServices[index].name];
+    const digits = current.slice(1).replace(/\D/g, "");
+    const num = String(Number(digits || "25") + 1).padStart(3, "0");
+    return `${prefix}${num}`;
+  }
+
+  async function incrementAndPost(index: number) {
+    const nextNumber = computeNextNumber(index);
+    const serviceName = loketServices[index].name;
+    await postTicket(serviceName, nextNumber);
+    setNumbers((prev) => prev.map((v, i) => (i === index ? nextNumber : v)));
+  }
+
+  async function resetTo25(index: number) {
+    const serviceName = loketServices[index].name;
+    const number = `${SERVICE_PREFIX[serviceName]}025`;
+    await postTicket(serviceName, number);
+    setNumbers((prev) => prev.map((v, i) => (i === index ? number : v)));
+  }
+
   return (
     <div className="min-h-screen w-full bg-white text-black">
       <main className="min-h-screen w-full max-w-[1920px] mx-auto px-4 py-6">
+        <div className="mb-4 flex items-center justify-center">
+          <h1 className="text-3xl font-extrabold text-black">BNI KC Harmoni</h1>
+        </div>
         <div className="flex gap-6">
           <section className="w-[68%] flex flex-col gap-4">
           <div className="rounded-2xl border border-zinc-200 bg-white shadow">
@@ -134,14 +223,36 @@ export default function DisplayQueue() {
           </div>
           </section>
 
-          <section className="w-[32%] max-w-[420px] rounded-xl p-4 h-fit" style={{ backgroundColor: TOSKA }}>
-            <div className="grid grid-cols-2 gap-4 justify-items-center">
+          <section className="w-[32%] rounded-xl p-4 h-fit" style={{ backgroundColor: TOSKA }}>
+            <div className="grid grid-cols-2 gap-4">
             {loketServices.map((l, i) => (
               <div
                 key={l.id}
-                className={`${i === 4 ? "col-span-2 max-w-[350px] mx-auto" : "max-w-[350px]"} h-[220px] p-4 rounded-2xl border-[3px] border-[#F58220] bg-white flex flex-col justify-center items-center gap-3 shadow-sm`}
+                className={`${i === 4 ? "col-span-2" : ""} w-full h-[220px] p-4 rounded-2xl border-[3px] border-[#F58220] bg-white flex flex-col justify-center items-center gap-3 shadow-sm`}
               >
                   <div className="text-6xl font-extrabold leading-none">{numbers[i]}</div>
+                  <div className="flex gap-2">
+                    <button
+                      className="rounded-full bg-[#F58220] px-4 py-1 text-white text-sm font-semibold disabled:opacity-50"
+                      onClick={() => startInterval(i)}
+                      disabled={running[i]}
+                    >
+                      Start
+                    </button>
+                    <button
+                      className="rounded-full bg-zinc-200 px-4 py-1 text-sm font-semibold disabled:opacity-50"
+                      onClick={() => stopInterval(i)}
+                      disabled={!running[i]}
+                    >
+                      Stop
+                    </button>
+                    <button
+                      className="rounded-full bg-zinc-100 px-4 py-1 text-sm font-semibold"
+                      onClick={() => resetTo25(i)}
+                    >
+                      Reset
+                    </button>
+                  </div>
                   <div className="w-full rounded-full bg-[#F58220] py-2 px-6 text-center text-white text-lg font-semibold">LOKET {l.id}</div>
                   <div className="text-sm text-gray-600 mt-1 text-center">{l.name}</div>
                 </div>

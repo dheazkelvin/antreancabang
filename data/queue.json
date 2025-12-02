@@ -39,6 +39,2502 @@
       "branch": "BNI Harmoni",
       "status": "waiting",
       "createdAt": "2025-12-02T02:03:00.000Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T05:34:16.712Z"
+    },
+    {
+      "number": "D025",
+      "prefix": "D",
+      "service": "Pembukaan Rekening",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:29:32.441Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:32:42.621Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:33:05.378Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:33:20.387Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:33:35.392Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:33:50.478Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:34:05.480Z"
+    },
+    {
+      "number": "B026",
+      "prefix": "B",
+      "service": "Customer Service",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:34:09.676Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:34:20.487Z"
+    },
+    {
+      "number": "B026",
+      "prefix": "B",
+      "service": "Customer Service",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:34:24.681Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:34:37.193Z"
+    },
+    {
+      "number": "B025",
+      "prefix": "B",
+      "service": "Customer Service",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:34:38.364Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:50:53.459Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:51:08.466Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T06:51:14.296Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T07:20:13.690Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:23:54.181Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:23:54.336Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:23:54.495Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T07:34:51.979Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:37:46.924Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:37:51.934Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:37:57.007Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:38:02.016Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:38:18.286Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:38:23.300Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:42:33.412Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T07:42:43.652Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:42:58.276Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:03.601Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:08.785Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:13.977Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:19.172Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:24.400Z"
+    },
+    {
+      "number": "A032",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:29.573Z"
+    },
+    {
+      "number": "A033",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:34.752Z"
+    },
+    {
+      "number": "A034",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:39.876Z"
+    },
+    {
+      "number": "A035",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:45.046Z"
+    },
+    {
+      "number": "A036",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:50.235Z"
+    },
+    {
+      "number": "A037",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:43:55.413Z"
+    },
+    {
+      "number": "A038",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:00.586Z"
+    },
+    {
+      "number": "A039",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:05.738Z"
+    },
+    {
+      "number": "A040",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:10.889Z"
+    },
+    {
+      "number": "A041",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:16.031Z"
+    },
+    {
+      "number": "A042",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:21.229Z"
+    },
+    {
+      "number": "A043",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:26.416Z"
+    },
+    {
+      "number": "A044",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:31.620Z"
+    },
+    {
+      "number": "A045",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:36.869Z"
+    },
+    {
+      "number": "A046",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:42.117Z"
+    },
+    {
+      "number": "A047",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:47.379Z"
+    },
+    {
+      "number": "A048",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:52.566Z"
+    },
+    {
+      "number": "A049",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:44:57.795Z"
+    },
+    {
+      "number": "A050",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:03.035Z"
+    },
+    {
+      "number": "A051",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:08.268Z"
+    },
+    {
+      "number": "A052",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:13.521Z"
+    },
+    {
+      "number": "A053",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:18.747Z"
+    },
+    {
+      "number": "A054",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:23.951Z"
+    },
+    {
+      "number": "A055",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:29.165Z"
+    },
+    {
+      "number": "A056",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:34.379Z"
+    },
+    {
+      "number": "A057",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:39.606Z"
+    },
+    {
+      "number": "A058",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:44.792Z"
+    },
+    {
+      "number": "A059",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:50.030Z"
+    },
+    {
+      "number": "A060",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:45:55.423Z"
+    },
+    {
+      "number": "A061",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:00.687Z"
+    },
+    {
+      "number": "A062",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:05.933Z"
+    },
+    {
+      "number": "A063",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:10.941Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:11.429Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:16.116Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:21.419Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:24.479Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T07:46:35.133Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:52.655Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:46:57.861Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:47:03.101Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:47:08.281Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:47:13.456Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:47:16.568Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T07:57:45.810Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:58:33.754Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:58:38.925Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:58:44.100Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:58:49.392Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:58:54.695Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:58:59.914Z"
+    },
+    {
+      "number": "A032",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:05.154Z"
+    },
+    {
+      "number": "A033",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:10.364Z"
+    },
+    {
+      "number": "A034",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:15.529Z"
+    },
+    {
+      "number": "A035",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:20.723Z"
+    },
+    {
+      "number": "A036",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:25.941Z"
+    },
+    {
+      "number": "A037",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:31.180Z"
+    },
+    {
+      "number": "A038",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:36.386Z"
+    },
+    {
+      "number": "A039",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:41.551Z"
+    },
+    {
+      "number": "A040",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:46.753Z"
+    },
+    {
+      "number": "A041",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:51.894Z"
+    },
+    {
+      "number": "A042",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T07:59:57.044Z"
+    },
+    {
+      "number": "A043",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:02.227Z"
+    },
+    {
+      "number": "A044",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:07.383Z"
+    },
+    {
+      "number": "A045",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:12.516Z"
+    },
+    {
+      "number": "A046",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:17.683Z"
+    },
+    {
+      "number": "A047",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:22.867Z"
+    },
+    {
+      "number": "A048",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:28.013Z"
+    },
+    {
+      "number": "A049",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:33.219Z"
+    },
+    {
+      "number": "A050",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:38.377Z"
+    },
+    {
+      "number": "A051",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:43.528Z"
+    },
+    {
+      "number": "A052",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:48.715Z"
+    },
+    {
+      "number": "A053",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:53.888Z"
+    },
+    {
+      "number": "A054",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:00:59.158Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:01:01.630Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:01:03.603Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:01:58.715Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:02:07.714Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:02:12.931Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:02:18.163Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:02:23.359Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:02:28.623Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:02:32.666Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:04:38.194Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:04:48.723Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:04:53.730Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:04:58.740Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:05:03.904Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:05:08.913Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:05:11.318Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:06:17.424Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:06:37.927Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:06:48.121Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:06:54.121Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:06:59.217Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:07:05.201Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:07:11.026Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:07:14.990Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:09:16.572Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:09:28.204Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:09:34.169Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:09:39.351Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:09:44.550Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:09:49.762Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:09:54.960Z"
+    },
+    {
+      "number": "A032",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:10:00.146Z"
+    },
+    {
+      "number": "A033",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:10:05.314Z"
+    },
+    {
+      "number": "A034",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:10:10.528Z"
+    },
+    {
+      "number": "A035",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:10:15.667Z"
+    },
+    {
+      "number": "A036",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:10:20.862Z"
+    },
+    {
+      "number": "A037",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:10:25.864Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:10:26.321Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:11:15.448Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:11:24.255Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:11:29.862Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:11:35.309Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:11:40.321Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:11:42.175Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:11:55.715Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:01.095Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:06.362Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:11.598Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:16.827Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:21.999Z"
+    },
+    {
+      "number": "A032",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:27.203Z"
+    },
+    {
+      "number": "A033",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:32.399Z"
+    },
+    {
+      "number": "A034",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:37.603Z"
+    },
+    {
+      "number": "A035",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:42.768Z"
+    },
+    {
+      "number": "A036",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:47.924Z"
+    },
+    {
+      "number": "A037",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:53.085Z"
+    },
+    {
+      "number": "A038",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:12:58.280Z"
+    },
+    {
+      "number": "A039",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:13:03.531Z"
+    },
+    {
+      "number": "A040",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:13:08.668Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:13:13.335Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:13:31.504Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:13:42.162Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:13:47.433Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:13:53.155Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:13:58.316Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:14:04.128Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:14:08.133Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:26:31.601Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:26:41.629Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:26:46.716Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:26:51.721Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:26:57.667Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:27:02.668Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:27:04.839Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:30:52.004Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:01.498Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:07.439Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:12.544Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:18.425Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:23.545Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:28.755Z"
+    },
+    {
+      "number": "A032",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:33.942Z"
+    },
+    {
+      "number": "A033",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:39.206Z"
+    },
+    {
+      "number": "A034",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:44.435Z"
+    },
+    {
+      "number": "A035",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:49.722Z"
+    },
+    {
+      "number": "A036",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:31:54.960Z"
+    },
+    {
+      "number": "A037",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:00.204Z"
+    },
+    {
+      "number": "A038",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:05.496Z"
+    },
+    {
+      "number": "A039",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:10.743Z"
+    },
+    {
+      "number": "A040",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:16.015Z"
+    },
+    {
+      "number": "A041",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:21.255Z"
+    },
+    {
+      "number": "A042",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:26.557Z"
+    },
+    {
+      "number": "A043",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:31.877Z"
+    },
+    {
+      "number": "A044",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:37.127Z"
+    },
+    {
+      "number": "A045",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:42.435Z"
+    },
+    {
+      "number": "A046",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:47.619Z"
+    },
+    {
+      "number": "A047",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:52.800Z"
+    },
+    {
+      "number": "A048",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:32:58.033Z"
+    },
+    {
+      "number": "A049",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:03.251Z"
+    },
+    {
+      "number": "A050",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:08.436Z"
+    },
+    {
+      "number": "A051",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:13.687Z"
+    },
+    {
+      "number": "A052",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:18.929Z"
+    },
+    {
+      "number": "A053",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:24.149Z"
+    },
+    {
+      "number": "A054",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:29.402Z"
+    },
+    {
+      "number": "A055",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:34.612Z"
+    },
+    {
+      "number": "A056",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:39.838Z"
+    },
+    {
+      "number": "A057",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:44.979Z"
+    },
+    {
+      "number": "A058",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:50.339Z"
+    },
+    {
+      "number": "A059",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:33:55.609Z"
+    },
+    {
+      "number": "A060",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:00.993Z"
+    },
+    {
+      "number": "A061",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:06.211Z"
+    },
+    {
+      "number": "A062",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:11.472Z"
+    },
+    {
+      "number": "A063",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:16.691Z"
+    },
+    {
+      "number": "A064",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:22.186Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:26.315Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:34:29.868Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:43.763Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:49.741Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:54.809Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:34:59.902Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:35:10.243Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:35:12.337Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:38:16.893Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:38:24.042Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:38:29.943Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:38:35.013Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:38:40.117Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:38:45.129Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:38:47.099Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:42:10.344Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:42:21.255Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:42:27.318Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:42:32.338Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:42:38.272Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:42:43.486Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:42:46.744Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:45:54.849Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:03.500Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:09.441Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:14.870Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:20.441Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:26.324Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:31.534Z"
+    },
+    {
+      "number": "A032",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:36.800Z"
+    },
+    {
+      "number": "A033",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:41.998Z"
+    },
+    {
+      "number": "A034",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:47.180Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:46:52.195Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:47:57.704Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:06.215Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:11.225Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:16.257Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:21.307Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:26.513Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:31.737Z"
+    },
+    {
+      "number": "A032",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:36.969Z"
+    },
+    {
+      "number": "A033",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:42.184Z"
+    },
+    {
+      "number": "A034",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:47.340Z"
+    },
+    {
+      "number": "A035",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:52.506Z"
+    },
+    {
+      "number": "A036",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:48:57.750Z"
+    },
+    {
+      "number": "A037",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:03.113Z"
+    },
+    {
+      "number": "A038",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:08.278Z"
+    },
+    {
+      "number": "A039",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:13.433Z"
+    },
+    {
+      "number": "A040",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:19.323Z"
+    },
+    {
+      "number": "A041",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:24.532Z"
+    },
+    {
+      "number": "A042",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:29.718Z"
+    },
+    {
+      "number": "A043",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:34.885Z"
+    },
+    {
+      "number": "A044",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:40.071Z"
+    },
+    {
+      "number": "A045",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:45.210Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:49:46.618Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:50:04.800Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:15.308Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:20.705Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:26.501Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:30.828Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:31.512Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:36.606Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:41.607Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:45.399Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:45.552Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:45.770Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:46.182Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:46.409Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:46.622Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:52.394Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:50:57.882Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:51:03.095Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:51:09.069Z"
+    },
+    {
+      "number": "A031",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:51:14.071Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:51:16.768Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:51:58.406Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:52:25.430Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:52:30.676Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:52:35.877Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:52:40.884Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:52:45.899Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:52:47.925Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "waiting",
+      "createdAt": "2025-12-02T08:57:33.424Z"
+    },
+    {
+      "number": "A026",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:57:45.779Z"
+    },
+    {
+      "number": "A027",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:57:51.389Z"
+    },
+    {
+      "number": "A028",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:57:57.255Z"
+    },
+    {
+      "number": "A029",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:58:02.658Z"
+    },
+    {
+      "number": "A030",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:58:07.671Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:58:09.424Z"
+    },
+    {
+      "number": "A025",
+      "prefix": "A",
+      "service": "Teller",
+      "branch": "BNI Harmoni",
+      "status": "called",
+      "createdAt": "2025-12-02T08:58:11.455Z"
     }
   ]
 }

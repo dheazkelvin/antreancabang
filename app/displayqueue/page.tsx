@@ -33,7 +33,7 @@ const SERVICE_PREFIX: Record<string, string> = {
 export default function DisplayQueue() {
   const [now, setNow] = React.useState<string>("");
   const [numbers, setNumbers] = React.useState<string[]>(
-    loketServices.map(({ name }) => `${SERVICE_PREFIX[name]}001`)
+    loketServices.map(({ name }) => `${SERVICE_PREFIX[name]}025`)
   );
 
   React.useEffect(() => {
@@ -61,7 +61,7 @@ export default function DisplayQueue() {
 
         const mapped = loketServices.map(({ name }) => {
           const num = latestByService[name];
-          if (!num) return `${SERVICE_PREFIX[name]}001`;
+          if (!num) return `${SERVICE_PREFIX[name]}025`;
           if (/^[A-Za-z]\d+$/.test(num)) {
             const prefix = num[0];
             const digits = num.slice(1);

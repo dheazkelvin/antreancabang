@@ -32,7 +32,7 @@ function getPrefixByService(service: string): string {
 
 function generateNextNumber(prefix: string, tickets: Ticket[]): string {
   const filtered = tickets.filter((t) => t.prefix === prefix);
-  if (filtered.length === 0) return `${prefix}001`;
+  if (filtered.length === 0) return `${prefix}025`;
   const last = filtered[filtered.length - 1].number;
   const num = parseInt(last.slice(1)) + 1;
   return prefix + num.toString().padStart(3, "0");
@@ -92,7 +92,7 @@ export default function AntreanCabang() {
   function normalizeLatest(service: string): string {
     const latest = latestByService[service];
     const prefix = getPrefixByService(service);
-    if (!latest) return `${prefix}001`;
+    if (!latest) return `${prefix}025`;
     if (/^[A-Za-z]\d+$/.test(latest)) {
       const d = latest.slice(1);
       return `${latest[0]}${d.padStart(3, "0")}`;
@@ -104,9 +104,9 @@ export default function AntreanCabang() {
   function estimateNext(service: string): string {
     const prefix = getPrefixByService(service);
     const latest = latestByService[service];
-    if (!latest) return `${prefix}002`;
+    if (!latest) return `${prefix}028`;
     const n = parseInt(latest.slice(1), 10);
-    const next = isNaN(n) ? 2 : n + 1;
+    const next = isNaN(n) ? 28 : n + 3;
     return `${prefix}${next.toString().padStart(3, "0")}`;
   }
 
